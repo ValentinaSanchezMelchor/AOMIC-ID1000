@@ -5,6 +5,7 @@ Here I will post the 1) Data downloader and the 2) Data preprocessor for the AOM
 
 To open file:
 
+
 import numpy as np
 outputfile = 'Output.npy'
 loadarray = []
