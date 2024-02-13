@@ -1,9 +1,9 @@
 # AOMIC-ID1000
 Here I will post the 1) Data downloader and the 2) Data preprocessor for the AOMIC-ID1000 dataset, available at: https://openneuro.org/datasets/ds003097/versions/1.2.1.
 
-## To read the Output.npy use this code: 
+### To read the Output.npy use this code: 
 
-## To open file:
+To open file:
 
 import numpy as np
 outputfile = 'Output.npy'
@@ -27,7 +27,7 @@ loadarray = []
             except:
                 break
 
-# As graphs:
+As graphs:
 
 !pip install torch_geometric
 import torch
